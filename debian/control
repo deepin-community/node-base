@@ -1,0 +1,35 @@
+Source: node-base
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-cache-base <!nocheck>
+ , node-define-property <!nocheck>
+ , node-isobject <!nocheck>
+ , node-mixin-deep <!nocheck>
+ , node-pascalcase <!nocheck>
+ , node-should <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-base
+Vcs-Git: https://salsa.debian.org/js-team/node-base.git
+Homepage: https://github.com/node-base/base
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-base
+Architecture: all
+Depends: ${misc:Depends}
+ , node-cache-base (>= 4)
+ , node-define-property
+ , node-isobject
+ , node-mixin-deep
+ , node-pascalcase
+Description: foundation for creating modular, unit testable node.js application
+ base is the foundation for creating modular, unit testable and highly
+ pluggable node.js applications, starting with a handful of common methods,
+ like `set`, `get`, `del` and `use`.
+ .
+ Node.js is an event-based server-side JavaScript engine.

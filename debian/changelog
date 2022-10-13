@@ -1,0 +1,42 @@
+node-base (3.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Mark test dependencies with <!nocheck>
+
+ -- Yadd <yadd@debian.org>  Mon, 15 Nov 2021 08:27:52 +0100
+
+node-base (3.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Update VCS fields to salsa
+  * use pkg-js-tools auto test & install
+  * New upstream version 3.0.0 (Closes: #887497)
+  * Require node-cache-base ≥ 4
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 20 Feb 2020 07:06:49 +0100
+
+node-base (0.11.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #842782)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 01 Nov 2016 15:02:09 +0530
