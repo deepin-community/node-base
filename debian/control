@@ -12,7 +12,7 @@ Build-Depends: debhelper-compat (= 13)
  , node-mixin-deep <!nocheck>
  , node-pascalcase <!nocheck>
  , node-should <!nocheck>
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-base
 Vcs-Git: https://salsa.debian.org/js-team/node-base.git
 Homepage: https://github.com/node-base/base
